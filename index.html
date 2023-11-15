@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="row mb-5 bg-light p-3">
+                <div class="col-xl-3 col-xs-12 ">
+                    <input type="text" class="form-control" id="TITLE" placeholder="Subject">
+                </div>
+                <div class="col">
+                    <select id="p-pick" class="form-control spaces" >
+                        <option value="1">Low</option>
+                        <option value="2">Normal</option>
+                        <option value="3">High</option>
+                    </select>
+                </div>
+                <div class="col-xl-3 col-xs-12">
+                    <input type="date" class="form-control spaces" id="pdate">
+                </div>
+                <div class="col-xl-3 col-xs-12">
+                    <button type="button" class="btn btn-success spaces1" id="addbutton">PRIDĖTI</button>
+                </div>
+            </div>
+        </form>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-center first" scope="col"> <img class="diagram" src="img/diagram.svg" alt="diagram"></th>
+                    <th  scope="col">Subject</th>
+                    <th class ="priority" scope="col">Priority</th>
+                    <th  scope="col">Due date</th>
+                    <th  scope="col">Status</th>
+                    <th  scope="col">Percent completed</th>
+                    <th  scope="col">Modified on</th>
+                    <th  scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/todo.js"></script>
+</body>
+</html>

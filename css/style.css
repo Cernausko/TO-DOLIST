@@ -1,0 +1,69 @@
+
+.diagram {
+    width: 30px;
+}
+
+.green{
+
+    background-color: rgb(19, 226, 12);
+}
+.check{
+    width: 30px;
+}
+p {
+    margin:0px;
+    text-align: center; 
+    vertical-align: middle;
+}
+
+td {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.table th{
+    background-color: lightgray;
+}
+
+
+.spaces{
+    margin-left: 20px;
+}
+
+.document{
+    width: 40px;
+}
+
+.spaces1{
+    margin-left: 100px;
+}
+
+.first{
+    width: 30px;
+}
+
+.high {
+    background-color:#ff2a00;
+    border-radius: 25px;
+    color:white;
+}
+.normal {
+    background-color: #00b3ff;
+    border-radius: 25px;
+    color:white;
+}
+
+.low {
+    background-color: #a7ff04;
+    border-radius: 25px;
+    color:white;
+}
+
+.completed-title {
+    text-decoration: line-through; 
+    color: #888; 
+}
+
+.uncompleted-title {
+    color: white; 
+}
